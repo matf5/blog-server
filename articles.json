@@ -1,0 +1,43 @@
+{ 
+    "_id" : ObjectId("5f042d68aee3f037f51ef6e0"), 
+    "title" : "1232", 
+    "content" : "2323", 
+    "createdTime" : ISODate("2020-07-07T08:08:08.323+0000"), 
+    "updateTime" : ISODate("2020-07-07T08:08:08.323+0000"), 
+    "viewCount" : 1.0
+}
+{ 
+    "_id" : ObjectId("5f042dadaee3f037f51ef6e1"), 
+    "title" : "12332322", 
+    "createdTime" : ISODate("2020-07-07T08:09:17.366+0000"), 
+    "content" : "12321321"
+}
+{ 
+    "_id" : ObjectId("5f042e436edcc48190939d82"), 
+    "title" : "dada", 
+    "content" : "111111", 
+    "createdTime" : ISODate("2020-07-07T08:11:47.690+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f0430ef0ffcd58329dc68f1"), 
+    "title" : "原型链的理解", 
+    "content" : "## 原型\n在javascript中，函数具有prototype原型对象，原型对象都包含一个指向构造函数的指针。\n以函数创建的实例带有内部私有属性[[prototype]], 浏览器提供的属性为__proto__，这个__proto__指向构造函数的prototype。\n## 原型链\n原型属性实际上也可以等于另一个函数类型的实例，这里会有个机制，当调用某一对象的某一属性时，如果在该对象上找不到该属性，会通过引用的原型去查找，这样就会层层递进，直到原型链的终点，也即Object.prototype.__proto__, 为null\n## new\nnew 生成实例\n", 
+    "createdTime" : ISODate("2020-07-07T08:23:11.850+0000"), 
+    "__v" : NumberInt(0), 
+    "updateTime" : ISODate("2020-07-07T11:10:01.542+0000")
+}
+{ 
+    "_id" : ObjectId("5f0435ca587bc0074ed2dab4"), 
+    "title" : "121", 
+    "content" : "2121", 
+    "createdTime" : ISODate("2020-07-07T08:43:54.316+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f045810dcbc513023f21cbd"), 
+    "title" : "11", 
+    "content" : "222", 
+    "createdTime" : ISODate("2020-07-07T11:10:08.853+0000"), 
+    "__v" : NumberInt(0)
+}
